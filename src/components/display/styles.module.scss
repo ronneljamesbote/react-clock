@@ -1,0 +1,19 @@
+.display {
+  background: #282c34;
+  border-radius: 50%;
+  border: 1rem solid #32363e;
+  color: #61dafb;
+  display: flex;
+  flex-direction: column;
+  height: 12rem;
+  justify-content: center;
+  margin: 40px auto;
+  text-align: center;
+  width: 12rem;
+
+  .time {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+}
