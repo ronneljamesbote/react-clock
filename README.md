@@ -1,13 +1,13 @@
 # react-clock
 
-A sample clock application using [ReactJS](https://reactjs.org/e).
+A sample clock application using [ReactJS](https://reactjs.org/).
 
 Check [here](https://react-clock-sample.web.app/) for live demo.
 
 ## Developed With
 
 - [Node.js](https://nodejs.org/en/) - Javascript runtime
-- [ReactJS](https://reactjs.org/e) - A javascript library developed by Facebook
+- [ReactJS](https://reactjs.org/) - A javascript library developed by Facebook
 - [Create React App](https://facebook.github.io/create-react-app/) - Ready to use ReactJS boilerplate
 - [SASS](https://sass-lang.com/) - A CSS preprocessor
 - [Firebase](https://firebase.google.com/) - A mobile and web application development platform by Google
