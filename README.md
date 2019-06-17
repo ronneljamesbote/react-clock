@@ -2,7 +2,7 @@
 
 A simple clock application with toggleable date using [ReactJS](https://reactjs.org/).
 
-Check [here](https://react-clock-sample.web.app/) for live demo.
+Check [here](https://sample-react-projects.web.app/react-clock) for live demo.
 
 ## Developed With
 
