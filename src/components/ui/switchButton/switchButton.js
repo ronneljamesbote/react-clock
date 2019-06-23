@@ -1,13 +1,26 @@
+import PropTypes from "prop-types";
 import React from "react";
 import styles from "./styles.module.scss";
 
-function switchButton({
-  checked = false,
-  className = "",
-  onChange,
-  value = false,
-  ...restProps
-}) {
+switchButton.propTypes = {
+  checked: PropTypes.bool,
+  className: PropTypes.string,
+  onChange: PropTypes.func,
+  value: PropTypes.oneOfType([
+    PropTypes.bool,
+    PropTypes.number,
+    PropTypes.string
+  ])
+};
+
+switchButton.defaultProps = {
+  checked: false,
+  className: "",
+  onChange: function() {},
+  value: false
+};
+
+function switchButton({ checked, className, onChange, value, ...restProps }) {
   const classes = [styles.switchButton, className];
 
   return (
